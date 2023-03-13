@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block main %}
+  <div class="indbody">
+    <div class = "indflex">
+        <img src="{{ url_for('get_image', filename=property.photo) }}">
+    </div>
+     
+
+    <div class = "indflex">
+        <h1 class = "indtit">{{ property.title }}</h1>
+        <span class = "desc price">${{ property.price }}</span>
+        <span class = "desc type">{{ property.type }}</span>
+        <p class = "desc">{{ property.description }}</p>
+        <span class = "desc">{{ property.no_bedroom }} Bedrooms</span>
+            <span class = "desc">{{ property.no_bathroom }} Bathrooms</span>
+        <p class = "desc">{{ property.location }}</p>
+        <button id="email" class="btn btn-primary" disabled>Email Realtor</button>
+    </div>
+</div>
+
+{% endblock %}

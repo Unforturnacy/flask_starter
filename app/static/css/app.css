@@ -1,3 +1,159 @@
 body {
     padding-top: 5rem;
+    font-family: -apple-system,BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "NotoSans", sans-serif;
+}
+
+.form-login input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    
+}
+
+
+
+.form-create {
+    display: grid;;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding: 10px;
+    max-width: 630px;
+    padding: 15px;
+    background-color: rgba(247, 247, 247, 0.904);
+}
+
+.grid-container {
+    display: grid;
+ 
+    gap: 10px;
+    background-color: #2196F3;
+   
+  }
+
+  .same-line{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+  }
+
+ .bod{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 28vw);
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+    grid-gap: 10px;
+
+    
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+}
+
+.button{
+    text-align: center;
+    background-color: #2783e6;
+    padding: 15px;
+        margin: 0%;
+
+}
+
+
+#butext{
+    color: azure;
+    font-weight: bold;
+    font-size: 20px;
+}
+.bottom{
+    text-align: left;
+   
+    background-color: rgb(173, 26, 26);
+}
+
+.img{
+    width: 100%;
+
+}
+
+.price{
+    background-color: #2196F3;
+    width: 20%;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.type{
+    background-color: #6ec466;
+    width: 20%;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.griditem{
+    border-radius: 4px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+
+body{
+    background-color: rgba(255, 255, 255, 0.815);
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.indbody{
+    display: flex;
+    margin: 10px;
+    width: 70rem;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+
+
+
+
+.indflex > *{
+    font-size: 15px;
+
+    margin: 10px;
+    margin-bottom: 25px;
+    
+}
+
+.indflex{
+    padding: 10px;
+}
+
+.indtit{
+    font-size: 25px;
+    margin-bottom: 35px;
+    font-weight: bold;
+    
+}
+
+.desc{
+    font-size: 17px;
+    font-family: Trebuchet MS;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+}
+
+.desc2{
+    font-size: 20px;
+}
+
+.form-control{
+    height:30px;
 }
